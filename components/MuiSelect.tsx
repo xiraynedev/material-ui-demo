@@ -13,7 +13,7 @@ export default function MuiSelect() {
   };
 
   return (
-    <Box width='500px'>
+    <Box width='500px' marginY={2}>
       <TextField
         label='Select Country'
         select
@@ -23,7 +23,7 @@ export default function MuiSelect() {
         SelectProps={{
           multiple: true,
         }}
-        size='large'
+        size='medium'
         color='secondary'
         helperText='Please select a country'
       >
