@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 export default function MuiProgress() {
   const [count, setCount] = useState(0);
-  let intervalID: any;
+  let intervalID: ReturnType<typeof setInterval>;
 
   const stopCounter = () => {
     clearInterval(intervalID);
