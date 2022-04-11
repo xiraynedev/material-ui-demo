@@ -4,6 +4,7 @@ import MuiButton from "../components/MuiButton";
 import MuiCard from "../components/MuiCard";
 import MuiCheckbox from "../components/MuiCheckbox";
 import MuiList from "../components/MuiList";
+import MuiProgress from "../components/MuiProgress";
 import MuiRadioButton from "../components/MuiRadioButton";
 import MuiRating from "../components/MuiRating";
 import MuiSelect from "../components/MuiSelect";
@@ -24,7 +25,8 @@ export default function HomePage() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiCard /> */}
-      <MuiList />
+      {/* <MuiList /> */}
+      <MuiProgress />
     </div>
   )
 }
