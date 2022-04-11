@@ -12,7 +12,6 @@ import React, { useState } from 'react';
 
 export default function MuiButton() {
   const [formats, setFormats] = useState<string[]>([]);
-  console.log(formats);
   const handleFormatChange = (
     event: React.MouseEvent<HTMLElement>,
     updatedFormats: string[],
