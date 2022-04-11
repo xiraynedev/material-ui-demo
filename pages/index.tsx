@@ -1,6 +1,7 @@
 import Typography from "@mui/material/Typography";
 import MuiAutocomplete from "../components/MuiAutocomplete";
 import MuiButton from "../components/MuiButton";
+import MuiCard from "../components/MuiCard";
 import MuiCheckbox from "../components/MuiCheckbox";
 import MuiRadioButton from "../components/MuiRadioButton";
 import MuiRating from "../components/MuiRating";
@@ -20,7 +21,8 @@ export default function HomePage() {
       {/* <MuiRadioButton />
       <MuiCheckbox /> */}
       {/* <MuiRating /> */}
-      <MuiAutocomplete />
+      {/* <MuiAutocomplete /> */}
+      <MuiCard />
     </div>
   )
 }
