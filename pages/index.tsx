@@ -3,6 +3,7 @@ import MuiAutocomplete from "../components/MuiAutocomplete";
 import MuiButton from "../components/MuiButton";
 import MuiCard from "../components/MuiCard";
 import MuiCheckbox from "../components/MuiCheckbox";
+import MuiList from "../components/MuiList";
 import MuiRadioButton from "../components/MuiRadioButton";
 import MuiRating from "../components/MuiRating";
 import MuiSelect from "../components/MuiSelect";
@@ -22,7 +23,8 @@ export default function HomePage() {
       <MuiCheckbox /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiList />
     </div>
   )
 }
