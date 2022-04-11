@@ -8,6 +8,7 @@ import MuiProgress from "../components/MuiProgress";
 import MuiRadioButton from "../components/MuiRadioButton";
 import MuiRating from "../components/MuiRating";
 import MuiSelect from "../components/MuiSelect";
+import MuiSkeleton from "../components/MuiSkeleton";
 import MuiTextField from "../components/MuiTextField";
 import MuiTypography from "../components/MuiTypography";
 
@@ -26,7 +27,8 @@ export default function HomePage() {
       {/* <MuiAutocomplete /> */}
       {/* <MuiCard /> */}
       {/* <MuiList /> */}
-      <MuiProgress />
+      {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   )
 }
