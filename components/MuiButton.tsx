@@ -92,13 +92,11 @@ export default function MuiButton() {
           <Button>Right</Button>
         </ButtonGroup>
       </Stack>
-      <Stack direction='row'>
         <ToggleButtonGroup
           aria-label='text formatting'
           value={formats}
           onChange={handleFormatChange}
           size='small'
-          orientation='vertical'
           color='success'
           exclusive
         >
@@ -112,7 +110,6 @@ export default function MuiButton() {
             <FormatUnderlinedIcon />
           </ToggleButton>
         </ToggleButtonGroup>
-      </Stack>
     </Stack>
   );
 }
