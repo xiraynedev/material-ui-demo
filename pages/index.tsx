@@ -11,6 +11,7 @@ import MuiSelect from "../components/MuiSelect";
 import MuiSkeleton from "../components/MuiSkeleton";
 import MuiTextField from "../components/MuiTextField";
 import MuiTypography from "../components/MuiTypography";
+import MuiTheme from '../components/MuiTheme';
 
 export default function HomePage() {
   return (
@@ -28,7 +29,8 @@ export default function HomePage() {
       {/* <MuiCard /> */}
       {/* <MuiList /> */}
       {/* <MuiProgress /> */}
-      <MuiSkeleton />
+      {/* <MuiSkeleton /> */}
+      <MuiTheme />
     </div>
   )
 }
